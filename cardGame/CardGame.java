@@ -160,15 +160,8 @@ public class CardGame {
             }
         }
 
-//        if (cards.size() > 1) {
         compareCards(cards, transferCards, indexes);
-//        } else {
-//            for (int i = 0; i < indexes.size(); i++) {
-//                if (!players.get(i).deck.isEmpty()) {
-//                    players.get(indexes.get(i)).deck.addAll(transferCards);
-//                }
-//            }
-//        }
+
     }
 
     /**
